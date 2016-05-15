@@ -1,0 +1,50 @@
+.container {
+	max-width: 800px;
+	width: 100%;
+	padding: 10px;
+	margin: auto;
+}
+
+.button {
+	height: 2em;
+	line-height: 2em;
+}
+
+#buttonContainer {
+	height: 50px;
+}
+
+#puzzleContainer {
+	border: 1px solid black;
+	border-radius: 10px;
+	margin: auto;
+}
+
+#puzzle {
+	margin: auto;
+}
+
+.row {
+	width: 100%;
+}
+
+.number, .separator, .answer {
+	display: inline-block;
+	width: 2em;
+	height: 2em;
+	line-height: 2em;
+	text-align: center;
+	padding: 5px;
+	margin: 5px 0.5%;
+	font-size: 1.5em;
+	vertical-align: top;
+	vertical-align: middle;
+}
+
+.number {
+	border: 1px solid black;
+}
+
+#a, #b, #c, #d, #e, #f, #g, #h {
+	background-color: lightblue;
+}

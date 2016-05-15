@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="stylesheets/puzzle.css">
+<script type="application/javascript"
+	src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
+<script type="application/javascript" src="scripts/puzzle.js"></script>
+<meta charset="ISO-8859-1">
+<title>puzzle</title>
+</head>
+<body>
+	<div class="container" id="buttonContainer">
+		<button type="button" class="button" id="clearButton">clear
+			numbers</button>
+		<button type="button" class="button" id="randomButton">fill
+			numbers</button>
+	</div>
+	<div class="container" id="puzzleContainer">
+		<div id="puzzle">
+			<div class="row" id="topRow">
+				<div class="number" id="a"></div>
+				<div class="separator">+</div>
+				<div class="number" id="b"></div>
+				<div class="separator">-</div>
+				<div class="number" id="hardCoded"></div>
+				<div class="separator">=</div>
+				<div class="answer"></div>
+			</div>
+			<div class="row" id="separatorRow1">
+				<div class="separator">+</div>
+				<div class="separator"></div>
+				<div class="separator">-</div>
+				<div class="separator"></div>
+				<div class="separator">-</div>
+			</div>
+			<div class="row" id="middleRow">
+				<div class="number" id="c"></div>
+				<div class="separator">-</div>
+				<div class="number" id="d"></div>
+				<div class="separator">*</div>
+				<div class="number" id="e"></div>
+				<div class="separator">=</div>
+				<div class="answer"></div>
+			</div>
+			<div class="row" id="separatorRow2">
+				<div class="separator">/</div>
+				<div class="separator"></div>
+				<div class="separator">*</div>
+				<div class="separator"></div>
+				<div class="separator">-</div>
+			</div>
+			<div class="row" id="bottomRow">
+				<div class="number" id="f"></div>
+				<div class="separator">+</div>
+				<div class="number" id="g"></div>
+				<div class="separator">-</div>
+				<div class="number" id="h"></div>
+				<div class="separator">=</div>
+				<div class="answer"></div>
+			</div>
+			<div class="row" id="separatorRow3">
+				<div class="separator">=</div>
+				<div class="separator"></div>
+				<div class="separator">=</div>
+				<div class="separator"></div>
+				<div class="separator">=</div>
+			</div>
+			<div class="row" id="endRow">
+				<div class="answer"></div>
+				<div class="separator"></div>
+				<div class="answer"></div>
+				<div class="separator"></div>
+				<div class="answer"></div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
