@@ -1,6 +1,8 @@
 $(document).ready(function() {
     var variables = "abcdefgh".split("");
 
+    setCopyrightYear();
+
     $(".answer").text(function() {
         return "4";
     });
@@ -98,4 +100,9 @@ function getSolutions() {
         }
     }
     return solutions;
+}
+
+function setCopyrightYear() {
+    var currentCopyrightText = document.getElementById('footerContainer').innerHTML
+    document.getElementById('footerContainer').innerHTML = currentCopyrightText.replace("$year", new Date().getFullYear())
 }

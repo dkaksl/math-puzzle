@@ -12,6 +12,7 @@
 
 #buttonContainer {
 	height: 50px;
+	text-align: center;
 }
 
 #puzzleContainer {
@@ -22,6 +23,10 @@
 
 #puzzle {
 	margin: auto;
+}
+
+#footerContainer {
+	text-align: center;
 }
 
 .row {
