@@ -1,55 +1,64 @@
 .container {
-	max-width: 800px;
-	width: 100%;
-	padding: 10px;
-	margin: auto;
+    max-width: 800px;
+    width: 100%;
+    padding: 10px;
+    margin: auto;
 }
 
 .button {
-	height: 2em;
-	line-height: 2em;
+    height: 2em;
+    line-height: 2em;
 }
 
 #buttonContainer {
-	height: 50px;
-	text-align: center;
+    height: 50px;
+    text-align: center;
 }
 
 #puzzleContainer {
-	border: 1px solid black;
-	border-radius: 10px;
-	margin: auto;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: auto;
 }
 
 #puzzle {
-	margin: auto;
+    margin: auto;
 }
 
 #footerContainer {
-	text-align: center;
+    text-align: center;
 }
 
 .row {
-	width: 100%;
+    width: 100%;
 }
 
-.number, .separator, .answer {
-	display: inline-block;
-	width: 2em;
-	height: 2em;
-	line-height: 2em;
-	text-align: center;
-	padding: 5px;
-	margin: 5px 0.5%;
-	font-size: 1.5em;
-	vertical-align: top;
-	vertical-align: middle;
+.number,
+.separator,
+.answer {
+    display: inline-block;
+    width: 2em;
+    height: 2em;
+    line-height: 2em;
+    text-align: center;
+    padding: 5px;
+    margin: 5px 0.5%;
+    font-size: 1.5em;
+    vertical-align: top;
+    vertical-align: middle;
 }
 
 .number {
-	border: 1px solid black;
+    border: 1px solid black;
 }
 
-#a, #b, #c, #d, #e, #f, #g, #h {
-	background-color: lightblue;
+#a,
+#b,
+#c,
+#d,
+#e,
+#f,
+#g,
+#h {
+    background-color: lightblue;
 }
