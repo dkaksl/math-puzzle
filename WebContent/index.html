@@ -1,26 +1,27 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<link rel="stylesheet" type="text/css" href="stylesheets/puzzle.css">
-<script type="application/javascript"
-	src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
-<script type="application/javascript" src="scripts/puzzle.js"></script>
-<meta charset="ISO-8859-1">
-<title>puzzle</title>
+	<link rel="stylesheet" type="text/css" href="stylesheets/puzzle.css">
+	<script type="application/javascript" src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
+	<script type="application/javascript" src="scripts/puzzle.js"></script>
+	<meta charset="ISO-8859-1">
+	<title>puzzle</title>
 </head>
+
 <body>
 	<div class="container" id="buttonContainer">
-		<button type="button" class="button" id="clearButton">clear
-			numbers</button>
-		<button type="button" class="button" id="randomButton">fill
-			numbers</button>
+		<button type="button" class="button" id="clearButton">clear numbers</button>
+		<button type="button" class="button" id="randomButton">fill numbers randomly</button>
+		<button type="button" class="button" id="answerButton">fill numbers with an answer</button>
+		<button type="button" class="button" id="evaluateButton">evaluate numbers</button>
 	</div>
 	<div class="container" id="puzzleContainer">
 		<div id="puzzle">
 			<div class="row" id="topRow">
-				<div class="number" id="a"></div>
+				<input class="number" id="a"></input>
 				<div class="separator">+</div>
-				<div class="number" id="b"></div>
+				<input class="number" id="b"></input>
 				<div class="separator">-</div>
 				<div class="number" id="hardCoded"></div>
 				<div class="separator">=</div>
@@ -34,11 +35,11 @@
 				<div class="separator">-</div>
 			</div>
 			<div class="row" id="middleRow">
-				<div class="number" id="c"></div>
+				<input class="number" id="c"></input>
 				<div class="separator">-</div>
-				<div class="number" id="d"></div>
+				<input class="number" id="d"></input>
 				<div class="separator">*</div>
-				<div class="number" id="e"></div>
+				<input class="number" id="e"></input>
 				<div class="separator">=</div>
 				<div class="answer"></div>
 			</div>
@@ -50,11 +51,11 @@
 				<div class="separator">-</div>
 			</div>
 			<div class="row" id="bottomRow">
-				<div class="number" id="f"></div>
+				<input class="number" id="f"></input>
 				<div class="separator">+</div>
-				<div class="number" id="g"></div>
+				<input class="number" id="g"></input>
 				<div class="separator">-</div>
-				<div class="number" id="h"></div>
+				<input class="number" id="h"></input>
 				<div class="separator">=</div>
 				<div class="answer"></div>
 			</div>
@@ -75,4 +76,5 @@
 		</div>
 	</div>
 </body>
+
 </html>
